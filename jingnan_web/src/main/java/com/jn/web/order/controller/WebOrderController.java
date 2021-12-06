@@ -51,7 +51,6 @@ public class WebOrderController {
         model.addAttribute("addressList", addressList.getData());
         model.addAttribute("cartMap", cartMap);
         model.addAttribute("defaultAddress", defaultAddress);
-        model.addAttribute("asd","111");
         return "order";
     }
 
